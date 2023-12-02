@@ -2,7 +2,7 @@ import React from 'react';
 
 const AllServices = () => {
     return (
-        <div>
+        <>
             <div className="container-fluid">
                 {/* Page Heading */}
                 <h1 className="h3 mb-2 text-gray-800">Services</h1>
@@ -498,7 +498,7 @@ const AllServices = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </>
     );
 };
 
